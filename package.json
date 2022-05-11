@@ -1,0 +1,23 @@
+{
+  "name": "apprentices",
+  "version": "1.0.0",
+  "description": "My crew (primer trabajo)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildcss": "sass src/sass:public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julieta3164/Apprentices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julieta3164/Apprentices/issues"
+  },
+  "homepage": "https://github.com/Julieta3164/Apprentices#readme",
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
+}
