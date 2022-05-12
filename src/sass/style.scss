@@ -2,4 +2,26 @@ $family: 'Roboto', sans-serif;
 
 body {
     font-family: $family;
+    background-color: #C9FFEF;
+
+
+
+
+    #sectionB{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        .Vero{
+            background-color:#AFADA3;
+        }
+        .Juliet{
+            background-color:#AFADA3;
+        }
+        .Vivi{
+            background-color:#AFADA3;
+        }
+
+
+    }
+
 }
