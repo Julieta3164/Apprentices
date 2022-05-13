@@ -4,18 +4,22 @@ sans-serif;
 body {
     font-family: $family;
     background-color: #C9FFEF;
+    padding: 10px;
+    margin: auto;
 
     #header {
         display: flex;
         text-align: center;
         justify-content: space-around;
-
-        .logo {
-            height: 200px;
-            width: 200px;
+        
+        .logo{
+            max-width:5%;
+            max-height:5%;
         }
 
-        .text {}
+        .text {
+            font-family: $family;
+        }
     }
 
     #sectiona {
@@ -24,14 +28,14 @@ body {
         justify-content: space-around;
 
         .slogan {
-            height: 200px;
-            width: 200px;
-
+            font-size: 20px;
+            height: 200cm;
+            width: 200cm;
         }
 
         .banner {
-            height: -200cm;
-            width: -200cm;
+            height: 100px;
+            width: 100px;
         }
     }
 
