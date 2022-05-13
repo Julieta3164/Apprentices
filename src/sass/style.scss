@@ -7,19 +7,74 @@ body {
 
 
 
-    #sectionB{
+    #sectionB {
         display: flex;
         text-align: center;
         justify-content: space-around;
-        .Vero{
-            background-color:#AFADA3;
 
+        .Vero {
+            background-color: #AFADA3;
+            width: 230px;
+            height: 300px;
+
+            .avatarvero {
+                width: 200px;
+                height: 200px;
+                margin: 5%;
+                background: url(/public/img/myAvatar.png);
+            }
+
+            .avatarvero:hover {
+                width: 200px;
+                height: 200px;
+                background: url(/public/img/1.png);
+                cursor: pointer;
+                
+            }
         }
-        .Juliet{
-            background-color:#AFADA3;
+
+        .Juliet {
+            width: 230px;
+            height: 300px;
+            background-color: #AFADA3;
+
+            .avatarjuliet {
+                width: 200px;
+                height: 200px;
+                margin: 5%;
+                background: url(/public/img/juliet.png);
+            }
+
+            .avatarjuliet:hover {
+                width: 200px;
+                height: 200px;
+                background: url(/public/img/2.png);
+                cursor: pointer;
+                
+            }
         }
-        .Vivi{
-            background-color:#AFADA3;
+
+        .Vivi {
+
+            background-color: #AFADA3;
+            width: 230px;
+            height: 300px;
+
+            .avatarvivi {
+                width: 200px;
+                height: 200px;
+                margin: 5%;
+                background: url(/public/img/Vivi.png);
+            }
+
+            .avatarvivi:hover {
+                width: 200px;
+                height: 200px;
+                background: url(/public/img/3.png);
+                cursor: pointer;
+
+            }
+
         }
 
 
