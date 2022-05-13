@@ -1,28 +1,61 @@
-#header{
+$family: 'Roboto',
+sans-serif;
+
+body {
+    font-family: $family;
+    background-color: #C9FFEF;
+
+    #header {
         display: flex;
         text-align: center;
         justify-content: space-around;
-    .logo{
-        height: 200px;
-        width: 200px;
+
+        .logo {
+            height: 200px;
+            width: 200px;
+        }
+
+        .text {}
+    }
+
+    #sectiona {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+
+        .slogan {
+            height: 200px;
+            width: 200px;
+
+        }
+
+        .banner {
+            height: -200cm;
+            width: -200cm;
+        }
+    }
+
+
+    #sectionB {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+
+
+        .Vero {
+            background-color: #AFADA3;
+
+        }
+
+        .Juliet {
+            background-color: #AFADA3;
+
+        }
+
+        .Vivi {
+            background-color: #AFADA3;
+
+        }
 
     }
-    .text{
-
-    }
-}
-
-#sectiona{
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-.slogan{
-    height: 200px;
-    width: 200px;
-
-}
-.banner{
-    height: -200cm;
-    width: -200cm;
-}
 }

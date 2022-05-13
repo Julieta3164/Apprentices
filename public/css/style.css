@@ -1,24 +1,42 @@
-#header {
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #C9FFEF;
+}
+body #header {
   display: flex;
   text-align: center;
   justify-content: space-around;
 }
-#header .logo {
+body #header .logo {
   height: 200px;
   width: 200px;
 }
-#sectiona {
+body #sectiona {
   display: flex;
   text-align: center;
   justify-content: space-around;
 }
-#sectiona .slogan {
+body #sectiona .slogan {
   height: 200px;
   width: 200px;
 }
-#sectiona .banner {
+body #sectiona .banner {
   height: -200cm;
   width: -200cm;
+}
+body #sectionB {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+body #sectionB .Vero {
+  background-color: #AFADA3;
+}
+body #sectionB .Juliet {
+  background-color: #AFADA3;
+}
+body #sectionB .Vivi {
+  background-color: #AFADA3;
 }
 
 /*# sourceMappingURL=style.css.map */
