@@ -1,5 +1,24 @@
-body {
-  font-family: "Roboto", sans-serif;
+#header {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+#header .logo {
+  height: 200px;
+  width: 200px;
+}
+#sectiona {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+#sectiona .slogan {
+  height: 200px;
+  width: 200px;
+}
+#sectiona .banner {
+  height: -200cm;
+  width: -200cm;
 }
 
 /*# sourceMappingURL=style.css.map */
