@@ -1,11 +1,40 @@
-$family: 'Roboto', sans-serif;
+$family: 'Roboto',
+sans-serif;
 
 body {
     font-family: $family;
     background-color: #C9FFEF;
     margin: 8%;
 
+    #header {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
 
+        .logo {
+            height: 200px;
+            width: 200px;
+        }
+
+        .text {}
+    }
+
+    #sectiona {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+
+        .slogan {
+            height: 200px;
+            width: 200px;
+
+        }
+
+        .banner {
+            height: -200cm;
+            width: -200cm;
+        }
+    }
 
 
     #sectionB {

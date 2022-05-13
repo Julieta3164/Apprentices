@@ -3,6 +3,28 @@ body {
   background-color: #C9FFEF;
   margin: 8%;
 }
+body #header {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+body #header .logo {
+  height: 200px;
+  width: 200px;
+}
+body #sectiona {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+body #sectiona .slogan {
+  height: 200px;
+  width: 200px;
+}
+body #sectiona .banner {
+  height: -200cm;
+  width: -200cm;
+}
 body #sectionB {
   display: flex;
   text-align: center;
