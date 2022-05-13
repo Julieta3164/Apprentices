@@ -1,20 +1,63 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #C9FFEF;
+  margin: 8%;
 }
 body #sectionB {
   display: flex;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 body #sectionB .Vero {
-  background-color: #AFADA3;
+  background-color: #989a8d;
+  width: 230px;
+  height: 300px;
+}
+body #sectionB .Vero .avatarvero {
+  width: 200px;
+  height: 200px;
+  margin: 5%;
+  background: url(/public/img/myAvatar.png);
+}
+body #sectionB .Vero .avatarvero:hover {
+  width: 240px;
+  height: 240px;
+  background: url(/public/img/1.png);
+  cursor: pointer;
 }
 body #sectionB .Juliet {
-  background-color: #AFADA3;
+  width: 230px;
+  height: 300px;
+  background-color: #989a8d;
+}
+body #sectionB .Juliet .avatarjuliet {
+  width: 200px;
+  height: 200px;
+  margin: 5%;
+  background: url(/public/img/juliet.png);
+}
+body #sectionB .Juliet .avatarjuliet:hover {
+  width: 240px;
+  height: 240px;
+  background: url(/public/img/2.png);
+  cursor: pointer;
 }
 body #sectionB .Vivi {
-  background-color: #AFADA3;
+  background-color: #989a8d;
+  width: 230px;
+  height: 300px;
+}
+body #sectionB .Vivi .avatarvivi {
+  width: 200px;
+  height: 200px;
+  margin: 5%;
+  background: url(/public/img/Vivi.png);
+}
+body #sectionB .Vivi .avatarvivi:hover {
+  width: 240px;
+  height: 240px;
+  background: url(/public/img/3.png);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
