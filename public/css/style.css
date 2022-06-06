@@ -1,48 +1,124 @@
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #C9FFEF;
-  padding: 10px;
-  margin: auto;
+  margin: 5%;
 }
-body #header {
+
+header {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 3px black;
+  border-radius: 20px;
+}
+header img {
+  width: 20%;
+  margin: 1%;
+}
+header h1 {
+  width: 50%;
+  font-family: "Lobster", cursive;
+  font-size: 80px;
+}
+
+.banner {
+  margin-top: 3%;
+  width: 100%;
+  border: solid 3px black;
+  border-radius: 20px;
+}
+.banner img {
+  width: 98%;
+  padding: 1%;
+}
+
+.slogan {
+  margin-top: 3%;
+  width: 100%;
+  border: solid 3px black;
+  font-family: "Lobster", cursive;
   text-align: center;
-  justify-content: space-around;
+  font-size: 50px;
+  border-radius: 20px;
 }
-body #header .logo {
-  max-width: 5%;
-  max-height: 5%;
-}
-body #header .text {
-  font-family: "Roboto", sans-serif;
-}
-body #sectiona {
+
+#sectionB {
+  margin-top: 3%;
   display: flex;
-  text-align: center;
+  border: solid 3px black;
   justify-content: space-around;
+  border-radius: 20px;
 }
-body #sectiona .slogan {
-  font-size: 20px;
-  height: 200cm;
-  width: 200cm;
+
+.team-member {
+  margin: 1%;
+  border: solid 2px rgb(19, 94, 18);
 }
-body #sectiona .banner {
-  height: 100px;
-  width: 100px;
+.team-member img {
+  width: 200px;
+  height: 200px;
 }
-body #sectionB {
+.team-member h3 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgb(19, 94, 18);
+  width: 100%;
+}
+
+.avatar1 {
+  width: 200px;
+  height: 200px;
+  background: url("../../public/img/vero.png");
+}
+
+.avatar1:hover {
+  width: 160px;
+  height: 160px;
+  background: url("../../public/img/emojis1.png");
+}
+
+.avatar2 {
+  width: 200px;
+  height: 200px;
+  background: url("../../public/img/juliet.png");
+}
+
+.avatar2:hover {
+  width: 160px;
+  height: 160px;
+  background: url("../../public/img/emojis2.png");
+}
+
+.avatar3 {
+  width: 200px;
+  height: 200px;
+  background: url("../../public/img/vivi.png");
+}
+
+.avatar3:hover {
+  width: 160px;
+  height: 160px;
+  background: url("../../public/img/emojis3.png");
+}
+
+footer {
+  margin-top: 3%;
   display: flex;
-  text-align: center;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 3%;
+  width: 100%;
+  border: solid 3px black;
+  border-radius: 20px;
 }
-body #sectionB .Vero {
-  background-color: #AFADA3;
+footer img {
+  width: 4%;
+  margin: 1%;
 }
-body #sectionB .Juliet {
-  background-color: #AFADA3;
-}
-body #sectionB .Vivi {
-  background-color: #AFADA3;
+footer .grupo {
+  margin: 1%;
+  margin-left: 3%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
