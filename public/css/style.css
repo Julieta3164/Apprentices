@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #C9FFEF;
+  padding: 10px;
+  margin: auto;
 }
 body #header {
   display: flex;
@@ -8,8 +10,11 @@ body #header {
   justify-content: space-around;
 }
 body #header .logo {
-  height: 200px;
-  width: 200px;
+  max-width: 5%;
+  max-height: 5%;
+}
+body #header .text {
+  font-family: "Roboto", sans-serif;
 }
 body #sectiona {
   display: flex;
@@ -17,12 +22,13 @@ body #sectiona {
   justify-content: space-around;
 }
 body #sectiona .slogan {
-  height: 200px;
-  width: 200px;
+  font-size: 20px;
+  height: 200cm;
+  width: 200cm;
 }
 body #sectiona .banner {
-  height: -200cm;
-  width: -200cm;
+  height: 100px;
+  width: 100px;
 }
 body #sectionB {
   display: flex;
