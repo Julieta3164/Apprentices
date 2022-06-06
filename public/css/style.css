@@ -1,42 +1,124 @@
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #C9FFEF;
+  margin: 5%;
 }
-body #header {
+
+header {
+  width: 100%;
   display: flex;
-  text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 3px black;
+  border-radius: 20px;
 }
-body #header .logo {
-  height: 200px;
+header img {
+  width: 20%;
+  margin: 1%;
+}
+header h1 {
+  width: 50%;
+  font-family: "Lobster", cursive;
+  font-size: 80px;
+}
+
+.banner {
+  margin-top: 3%;
+  width: 100%;
+  border: solid 3px black;
+  border-radius: 20px;
+}
+.banner img {
+  width: 98%;
+  padding: 1%;
+}
+
+.slogan {
+  margin-top: 3%;
+  width: 100%;
+  border: solid 3px black;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 20px;
+}
+
+#sectionB {
+  margin-top: 3%;
+  display: flex;
+  border: solid 3px black;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.team-member {
+  margin: 1%;
+  border: solid 2px rgb(19, 94, 18);
+}
+.team-member img {
   width: 200px;
-}
-body #sectiona {
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-}
-body #sectiona .slogan {
   height: 200px;
-  width: 200px;
 }
-body #sectiona .banner {
-  height: -200cm;
-  width: -200cm;
-}
-body #sectionB {
-  display: flex;
+.team-member h3 {
+  font-size: 40px;
   text-align: center;
-  justify-content: space-around;
+  font-family: "Lobster", cursive;
+  color: rgb(19, 94, 18);
+  width: 100%;
 }
-body #sectionB .Vero {
-  background-color: #AFADA3;
+
+.avatar1 {
+  width: 200px;
+  height: 200px;
+  background: url("../../public/img/vero.png");
 }
-body #sectionB .Juliet {
-  background-color: #AFADA3;
+
+.avatar1:hover {
+  width: 160px;
+  height: 160px;
+  background: url("../../public/img/emojis1.png");
 }
-body #sectionB .Vivi {
-  background-color: #AFADA3;
+
+.avatar2 {
+  width: 200px;
+  height: 200px;
+  background: url("../../public/img/juliet.png");
+}
+
+.avatar2:hover {
+  width: 160px;
+  height: 160px;
+  background: url("../../public/img/emojis2.png");
+}
+
+.avatar3 {
+  width: 200px;
+  height: 200px;
+  background: url("../../public/img/vivi.png");
+}
+
+.avatar3:hover {
+  width: 160px;
+  height: 160px;
+  background: url("../../public/img/emojis3.png");
+}
+
+footer {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  width: 100%;
+  border: solid 3px black;
+  border-radius: 20px;
+}
+footer img {
+  width: 4%;
+  margin: 1%;
+}
+footer .grupo {
+  margin: 1%;
+  margin-left: 3%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
